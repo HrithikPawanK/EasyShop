@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eazyshop">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2" />
+    <uses-feature android:name="android.hardware.camera2.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/eazyshop"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/eazyshop"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EazyShop">
+        <activity android:name=".ChangeNow"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="EazyShop"
+            android:theme="@style/Theme.EazyShop.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".ChangeProductInfo" />
+        <activity
+            android:name=".InventoryActivity"
+            android:label="@string/title_activity_inventory"
+            android:theme="@style/Theme.EazyShop.NoActionBar" />
+        <activity android:name=".Add_Items" />
+        <activity android:name=".AdminCategory" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ConfirmActivity" />
+        <activity android:name=".ScanItem" />
+        <activity android:name=".CartActivity" />
+        <activity
+            android:name=".Scanning"
+            android:screenOrientation="fullSensor"
+            android:stateNotNeeded="true"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity android:name=".NewCartActivity" />
+        <activity android:name=".NewAdminActivity" />
+        <activity android:name=".Redirect" />
+    </application>
+
+</manifest>

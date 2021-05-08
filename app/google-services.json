@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "407525388015",
+    "firebase_url": "https://eazyshop-482b5.firebaseio.com",
+    "project_id": "eazyshop-482b5",
+    "storage_bucket": "eazyshop-482b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407525388015:android:2c9cef21123a6b105b751a",
+        "android_client_info": {
+          "package_name": "com.example.eazyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407525388015-dh3p2vo86hf00882lseup4qcpa48qsg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb9c2S-edpOEdwIfiGTQmGlna9OkFDeeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407525388015-dh3p2vo86hf00882lseup4qcpa48qsg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407525388015:android:cdc9f8d5410ddff75b751a",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407525388015-ln2dj8iajk6ddn1e2c0ttmtupq4nd7jn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "0c40c904a76bbde96bea6935aab88ffe2f0cbef9"
+          }
+        },
+        {
+          "client_id": "407525388015-dh3p2vo86hf00882lseup4qcpa48qsg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb9c2S-edpOEdwIfiGTQmGlna9OkFDeeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407525388015-dh3p2vo86hf00882lseup4qcpa48qsg6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/eazyshop"
+        />
+    <TextView
+        android:id="@+id/caption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/app_logo"
+        android:text="Contact less, Shop more"
+        android:layout_marginTop="10dp"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        />
+    <Button
+        android:id="@+id/join"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/caption"
+        android:layout_marginTop="100dp"
+        android:text="Join Now"
+        android:onClick="register"
+        />
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/join"
+        android:layout_marginTop="20dp"
+        android:text="Already have an account?"
+        android:onClick="signin"
+        />
+</RelativeLayout>

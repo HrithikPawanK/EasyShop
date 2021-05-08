@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAdminActivity">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/welcomea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="WELCOME"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcomea"
+        android:id="@+id/adda"
+        android:layout_centerHorizontal="true"
+        android:text="ADD ITEM"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adda"
+        android:id="@+id/removea"
+        android:layout_centerHorizontal="true"
+        android:text="Change ITEM"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/transcationsa"
+        android:layout_centerHorizontal="true"
+        android:text="Logout"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+</RelativeLayout>
